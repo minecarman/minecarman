@@ -1,7 +1,7 @@
 
 <h1> Welcome to my Github!👋</h1>
 
-<p> <img src="![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=minecarman&theme=tokyonight)
+<p> <img src="(https://github-readme-stats.vercel.app/api/top-langs/?username=minecarman&theme=tokyonight)
 "/>
 </p>
 
