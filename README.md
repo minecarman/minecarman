@@ -4,7 +4,7 @@
 <p> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=minecarman&show_icons=true&locale=en&layout=compact"/>
 </p>
 
- <p> <img src="https://tenor.com/tr/view/bruce-almighty-comedy-jim-carrey-angry-typing-gif-3479485"/>
+ <p> <img src="https://media1.tenor.com/m/PqJ7yMX9GFoAAAAC/bruce-almighty-comedy.gif"/>
  </p>
 
  
