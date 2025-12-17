@@ -1,0 +1,73 @@
+\documentclass[11pt,a4paper,helvetica neue]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{black}
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage[scale=0.915]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{import}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\name{Arda}{AKÇA}
+\newcommand*{\customcventry}[7][.13em]{
+\begin{tabular}{@{}l}
+{\bfseries #4} \
+{\itshape #3}
+\end{tabular}
+\hfill
+\begin{tabular}{l@{}}
+{\bfseries #5} \
+{\itshape #2}
+\end{tabular}
+\ifx&#7&%
+\else{\
+\begin{minipage}{\maincolumnwidth}%
+\small#7%
+\end{minipage}}\fi%
+\par\addvspace{#1}}
+\begin{document}
+\makecvtitle
+\vspace*{-16mm}
+\begin{center}\textbf{ Computer Engineering Student}\end{center}
+\begin{center}
+\begin{tabular}{ c c c }
+\enspace\faMobile +90 5413602335& \enspace\faCommentDots minecarman@gmail.com & \enspace\faGitSquare \color{blue}\href{https://github.com/minecarman}{minecarman} \\
+\end{tabular}
+\end{center}
+
+\section{Education}
+\customcventry{09/2022-06/2026}{Muğla Sıtkı Koçman University}{Computer Engineering}{}{}{}
+
+\section{Professional Experience}
+\customcventry{07/2024 ‐ 01/2026}{{\color{blue}\href{https://www.siemens.com/tr/tr.html}{(Siemens)}}}{Software Developer - Worked on developing TIA Portal}{Istanbul, Turkey}{}{
+}
+\customcventry{07/2024 ‐ 08/2024}{{\color{blue}\href{https://virtusarge.com/}{(Virtus ArGe)}}}{Data Science Intern -  Worked on Web Scraping}{Muğla Teknopark, Turkey}{}{
+}
+  
+\section{Skills}
+{\begin{itemize}[label=\textbullet]
+\item {\textbf{Programming Languages:}  C\#, Dart, Python, Java, Haskell, HTML/CSS, XAML}
+\item {\textbf{Technologies \& Others:} Flutter, Unity, Git, SQL, Agile, Scrum, Pandas, Numpy}
+\end{itemize}}
+
+\section{Online Courses \& Certifications}
+{\begin{itemize}[label=\textbullet]
+      \item Functional Programming (2023) - \underline{{University of Helsinki}}
+      \item Zero to Hero C\# (2022) - \underline{{Udemy}}
+      \item Game Design with Unity (2022) - \underline{{Udemy}}
+  \end{itemize}} 
+
+
+\section{Languages}
+\begin{multicols}{2}
+    \begin{itemize}[label=\textbullet]
+    \item \textbf{Turkish} [Native]
+    \item {\textbf{English} [Advanced] - C1}
+    \item {\textbf{Russian} [Basic] - A2}
+    \item {\textbf{Japanese} [Basic] - A2}
+    \end{itemize}
+\end{multicols}
+\end{document}
